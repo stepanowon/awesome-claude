@@ -25,6 +25,45 @@ claude mcp add server-name
 # 설정 파일 직접 편집 (추천)
 # ~/.claude/config.json 또는 프로젝트의 .mcp.json 파일 수정
 ~~~
+
+* claude code 공식 문서 연결 가이드
+https://docs.anthropic.com/en/docs/claude-code/mcp  
+~~~json
+{
+  "mcpServers": {
+    "github": {
+      "command": "npx",
+      "args": ["-y", "@modelcontextprotocol/server-github"],
+      "env": {
+        "GITHUB_PERSONAL_ACCESS_TOKEN": "YOUR_TOKEN"
+      }
+    },
+    "filesystem": {
+      "command": "npx", 
+      "args": [
+        "-y",
+        "@modelcontextprotocol/server-filesystem",
+        "/path/to/project"
+      ]
+    },
+    "postgresql": {
+      "command": "npx",
+      "args": [
+        "@henkey/postgres-mcp-server",
+        "--connection-string", 
+        "postgresql://user:pass@localhost:5432/db"
+      ]
+    }
+  }
+}
+~~~
+
+### Vibe Coding 할 때 일반적인 조합
+* 기본 세트: GitHub + Filesystem + Memory
+* 풀스택 개발: + PostgreSQL + Docker + Slack
+* 팀 협업: + Linear + Notion + Zapier
+* 고급 자동화: + Puppeteer + Sequential Thinking
+
 ### github MCP Server
 https://github.com/SuperClaude-Org/SuperClaude_Framework  
 기능 : GitHub API와 직접 연동하여 이슈, PR, 커밋 관리  
