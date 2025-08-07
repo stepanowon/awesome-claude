@@ -17,46 +17,9 @@ https://github.com/SuperClaude-Org/SuperClaude_Framework
 
 ---
 ## Claude에서 사용하면 유용한 MCP 
-### claude code에서 MCP 연결
-* 설정방법
-~~~bash
-# CLI 방식 (공식)
-claude mcp add server-name
-# 설정 파일 직접 편집 (추천)
-# ~/.claude/config.json 또는 프로젝트의 .mcp.json 파일 수정
-~~~
+### MCP server 모음
+https://mcpservers.org/  
 
-* claude code 공식 문서 연결 가이드
-https://docs.anthropic.com/en/docs/claude-code/mcp  
-~~~json
-{
-  "mcpServers": {
-    "github": {
-      "command": "npx",
-      "args": ["-y", "@modelcontextprotocol/server-github"],
-      "env": {
-        "GITHUB_PERSONAL_ACCESS_TOKEN": "YOUR_TOKEN"
-      }
-    },
-    "filesystem": {
-      "command": "npx", 
-      "args": [
-        "-y",
-        "@modelcontextprotocol/server-filesystem",
-        "/path/to/project"
-      ]
-    },
-    "postgresql": {
-      "command": "npx",
-      "args": [
-        "@henkey/postgres-mcp-server",
-        "--connection-string", 
-        "postgresql://user:pass@localhost:5432/db"
-      ]
-    }
-  }
-}
-~~~
 
 ### Vibe Coding 할 때 일반적인 조합
 * 기본 세트: GitHub + Filesystem + Memory
@@ -142,12 +105,23 @@ https://github.com/Paragon-AI/zapier-mcp-server
 
 ### MYSQL MCP
 https://github.com/executeautomation/mcp-database-server  
+
+### Supabase MCP
+https://supabase.com/docs/guides/getting-started/mcp  
+https://supabase.com/blog/mcp-server  
   
+Claude MCP Servers 디렉토리: https://www.claudemcp.com/servers/supabase-mcp  
+Cursor Directory: https://cursor.directory/mcp/supabase  
+Smithery MCP 서버: https://smithery.ai/server/@supabase-community/supabase-mcp  
+
 ### Linear MCP
 프로젝트 관리& 협업 도구. 이슈 및 프로젝트 상태 실시간 컨텍스트  
 https://linear.app/mcp   
 
-
+### Toss payment MCP
+https://docs.tosspayments.com/guides/v2/get-started/llms-guide  
+https://toss.tech/article/tosspayments-mcp  
+https://github.com/tosspayments  
 
 
 
