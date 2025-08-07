@@ -29,8 +29,15 @@ https://mcpservers.org/
 
 ### Shrimp Task Manager MCP
 https://github.com/cjo4m06/mcp-shrimp-task-manager  
-개요 : Shrimp Task Manager는 AI 에이전트를 위해 구축된 작업 도구로, chain-of-thought(연쇄 사고), reflection(반성), 스타일 일관성을 강조합니다. 자연어를 종속성 추적과 반복적 개선이 포함된 구조화된 개발 작업으로 변환하여 추론 AI 시스템에서 에이전트와 같은 개발자 행동을 가능하게 합니다.
+개요 :   
+* Shrimp Task Manager는 AI 에이전트를 위해 구축된 작업 도구로, chain-of-thought(연쇄 사고), reflection(반성), 스타일 일관성을 강조합니다. 자연어를 종속성 추적과 반복적 개선이 포함된 구조화된 개발 작업으로 변환하여 추론 AI 시스템에서 에이전트와 같은 개발자 행동을 가능하게 합니다.
 [상세 설명 문서](shrimp_task_manager_guide.md)  
+
+### Claude Task Master MCP
+https://github.com/eyaltoledano/claude-task-master  
+[상세 설명 문서](claude_task_master_for_claude_code.md)    
+개요 :  
+* Claude Task Master는 AI 기반 개발을 위한 작업 관리 시스템으로, Claude Code와 완벽하게 통합되어 구조화된 개발 워크플로우를 제공합니다. Claude Code CLI를 통해 API 키 없이도 사용할 수 있으며, PRD(Product Requirements Document)를 실행 가능한 작업으로 자동 분해하여 체계적인 개발을 가능하게 합니다.
 
 ### github MCP Server
 https://github.com/SuperClaude-Org/SuperClaude_Framework  
