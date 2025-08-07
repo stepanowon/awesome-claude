@@ -27,6 +27,11 @@ https://mcpservers.org/
 * 팀 협업: + Linear + Notion + Zapier
 * 고급 자동화: + Puppeteer + Sequential Thinking
 
+### Shrimp Task Manager MCP
+https://github.com/cjo4m06/mcp-shrimp-task-manager  
+개요 : Shrimp Task Manager는 AI 에이전트를 위해 구축된 작업 도구로, chain-of-thought(연쇄 사고), reflection(반성), 스타일 일관성을 강조합니다. 자연어를 종속성 추적과 반복적 개선이 포함된 구조화된 개발 작업으로 변환하여 추론 AI 시스템에서 에이전트와 같은 개발자 행동을 가능하게 합니다.
+[상세 설명 문서](shrimp_task_manager_guide.md)  
+
 ### github MCP Server
 https://github.com/SuperClaude-Org/SuperClaude_Framework  
 기능 : GitHub API와 직접 연동하여 이슈, PR, 커밋 관리  
