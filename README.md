@@ -1,9 +1,9 @@
 # awesome-claude
 - 유용한 claude, claude code 에서 사용가능한 강력한 유용한 도구들
 ---
-## Claude Code 관련 도구
+## Claude Code 관련
 #### Claude 기본 사용법
-
+* [상세 설명 문서](claude_code_guide.md)
 
 #### claude code templates
 * [상세 설명 문서](claude_code_templates.md)
