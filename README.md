@@ -1,5 +1,5 @@
 # awesome-claude
-유용한 claude, claude code 에서 사용가능한 강력한 유용한 도구들
+- 유용한 claude, claude code 에서 사용가능한 강력한 유용한 도구들
 ---
 ## claude code templates
 - [상세 설명 문서](claude_code_templates.md)
