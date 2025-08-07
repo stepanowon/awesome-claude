@@ -17,6 +17,14 @@ https://github.com/SuperClaude-Org/SuperClaude_Framework
 
 ---
 ## Claude에서 사용하면 유용한 MCP 
+### claude code에서 MCP 연결
+* 설정방법
+bash```
+# CLI 방식 (공식)
+claude mcp add server-name
+# 설정 파일 직접 편집 (추천)
+# ~/.claude/config.json 또는 프로젝트의 .mcp.json 파일 수정
+```
 ### github MCP Server
 https://github.com/SuperClaude-Org/SuperClaude_Framework  
 기능 : GitHub API와 직접 연동하여 이슈, PR, 커밋 관리  
